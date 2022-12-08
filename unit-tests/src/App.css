@@ -1,0 +1,24 @@
+:root{
+  --blue: #5AB9EA;
+  --white: #ffff;
+  --red: #EB5757;
+  --gray: #BDBDBD 
+  --lightGray: #413E34;
+  --lightBlue: #CBE4F1;
+}
+
+.bg-light-blue{
+  background-color: var(--lightBlue);
+}
+
+.text-red{
+  color: var(--red);
+}
+
+.text-gray{
+  color: var(--gray);
+}
+.App{
+  height: 100vh;
+  width: 100vw;  
+}

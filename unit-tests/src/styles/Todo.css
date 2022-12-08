@@ -1,0 +1,31 @@
+.bg-dark-blue{
+    background-color: #5AB9EA;
+}
+
+.todos{
+    height: inherit;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}   
+
+.todoEdit{
+    width: 90%; 
+}
+
+.todoEdit:focus{
+    outline: none;
+}
+.icon{
+    transform: scale(1.1);
+}
+
+.todoEdit-icons{
+    width: 10%;
+    display: none;
+}
+
+.todo-container:hover .todoEdit-icons {
+    display: block;
+    display: flex;
+}
+
